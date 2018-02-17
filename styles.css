@@ -99,7 +99,7 @@ ul {
 main {
   background-color: #1d5f79;
   display: grid;
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: repeat(4, 24%);
   grid-template-rows: 80px 350px 350px; 
   grid-column-gap: 1%;
   grid-row-gap: 2%;
@@ -125,11 +125,19 @@ h2 span {
   grid-column-end: end; 
   grid-row-start: 1;
   grid-row-end: 2;
+  margin-left: 0px;
 }
 
 .grid {
   background-color: #e9e9e9;
+}
 
+.card_flip {
+  border-radius: 50%;
+  padding: 1%;
+  margin: 2%;
+  height: 36px;
+  background-color: white;
 }
 
 .grid1 {
@@ -187,3 +195,80 @@ h2 span {
   grid-row-start: 3;
   grid-row-end: end;
 }
+
+.card_top {
+  background-size: cover;
+  height: 35%;
+  background-position-x: center;
+}
+
+.winter {
+  background-image: url(images/winterFailLogo.png);
+  background-size: cover;
+  height: 35%;
+  background-position-x: center;
+}
+
+.winter:hover {
+  background-image: url(images/winterFails.png)
+}
+
+.reptiles {
+  background-image: url(images/reptilesLogo.png);
+  background-size: cover;
+  height: 35%;
+  background-position-x: center;
+}
+
+.reptiles:hover {
+  background-image: url(images/reptiles.png);
+}
+
+.relationship {
+  background-image: url(images/relationshipLogo.png)
+}
+
+.relationship:hover {
+  background-image: url(images/relationship.png)
+}
+
+.best2017 {
+  background-image: url(images/2017Logo.png)
+}
+
+.best2017:hover {
+  background-image: url(images/2017.png)
+}
+
+.expensive {
+  background-image: url(images/expensiveLogo.png);
+}
+
+.expensive:hover {
+  background-image: url(images/expensive.png);
+}
+
+.redneck {
+  background-image: url(images/redneckLogo.png)
+}
+
+.redneck:hover {
+  background-image: url(images/redneck.png)
+}
+
+.karma {
+  background-image: url(images/karmaLogo.png);
+}
+
+.karma:hover {
+  background-image: url(images/karma.png);
+}
+
+.wrong {
+  background-image: url(images/wrongLogo.png);
+}
+
+.wrong:hover {
+  background-image: url(images/wrong.png);
+}
+
