@@ -64,7 +64,7 @@ h1 span {
   transform: rotate(45deg);
   transition-duration: 1s;
 }
-
+/*/*/*
 ul {
   display: flex;
   list-style-type: none;
@@ -281,7 +281,7 @@ h6 {
 }
 
 .best2017 {
-  background-image: url(images/2017Logo.png)
+  background-image: url(images/2017logo.png)
 }
 
 .best2017:hover {
@@ -549,4 +549,4 @@ h6 {
     font-size: 1rem;
   }
 }
-
+*/*/*/
