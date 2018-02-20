@@ -1,9 +1,9 @@
 html {
+  background-color: #1d5f79;
   box-sizing: border-box;
+  color: #434343;
   font-family: 'Anton', sans-serif;
   font-family: 'Dosis', sans-serif;
-  color: #434343;
-  background-color: #1d5f79;
 }
 
 *, *:before, *:after {
@@ -40,8 +40,8 @@ aside {
 
 .header__drop-down {
   height: 16px;
-  vertical-align: text-bottom;
   margin-top: 4px;
+  vertical-align: text-bottom;
 }
 
 h1 {
@@ -54,31 +54,27 @@ h1 span {
   color: #4c7799
 }
 
-#header__company-logo {
+.header__company-logo {
   height: 67px;
-  vertical-align: middle;
   margin-left: 5px;
+  vertical-align: middle;
 }
 
-#header__company-logo:hover {
+.header__company-logo:hover {
   transform: rotate(45deg);
   transition-duration: 1s;
 }
 
-#header__company-logo:active {
-  display: none;
-}
-
 ul {
   display: flex;
-  padding-top: 60px;
-  padding-left: 20px;
   list-style-type: none;
+  padding-left: 20px;
+  padding-top: 60px;
 }
 
 .nav__item {
-  margin-right: 30px;
   font-size: 1.5rem;
+  margin-right: 30px;
 }
 
 .nav__item:hover {
@@ -88,8 +84,8 @@ ul {
 
 .nav__icon {
   height: 20px;
-  margin-right: 6px;
   margin-bottom: 0px;
+  margin-right: 6px;
 }
 
 .sign-up {
@@ -125,13 +121,13 @@ h2 span {
 }
 
 .latestVids {
-  grid-column-start: 1;
-  grid-column-end: end; 
-  grid-row-start: 1;
-  grid-row-end: 2;
-  margin-left: 0px;
-  display: flex;
   align-items: center;
+  display: flex;
+  grid-column-end: end; 
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-row-start: 1;
+  margin-left: 0px;
 }
 
 .grid {
@@ -140,11 +136,11 @@ h2 span {
 }
 
 .card_flip {
-  border-radius: 50%;
-  padding: 1%;
-  margin: 2%;
-  height: 36px;
   background-color: white;
+  border-radius: 50%;
+  height: 36px;
+  margin: 2%;
+  padding: 1%;
 }
 
 div {
@@ -153,9 +149,9 @@ div {
 
 .views {
   color: #f2ca60;
+  font-size: 1rem;
   font-weight: bolder;
   margin: 15px 15px 0px 0px;
-  font-size: 1rem;
 }
 
 .card__head-view-count {
@@ -173,19 +169,18 @@ div {
 
 .link__container {
   background-color: #a8a6a6;
-  width: 100%;
-  padding: 5px 10px;
   margin: 14px 0px;
+  padding: 5px 10px;
+  width: 100%;
 }
-
 
 a {
   word-wrap: break-word;
 }
 
 h5 {
-  font-size: 2rem;
   color: #f2ca60;
+  font-size: 2rem;
 }
 
 h6 {
@@ -193,74 +188,73 @@ h6 {
   margin-top: 12px;
 }
     
-
 .grid1 {
-  grid-column-start: 1;
   grid-column-end: 2; 
-  grid-row-start: 2;
+  grid-column-start: 1;
   grid-row-end: 3;
+  grid-row-start: 2;
 }
 
 .grid2 {
-  grid-column-start: 2;
   grid-column-end: 3; 
-  grid-row-start: 2
+  grid-column-start: 2;
   grid-row-end: 3;
+  grid-row-start: 2
 }
 
 .grid3 {
-  grid-column-start: 3;
   grid-column-end: 4;
-  grid-row-start: 2
+  grid-column-start: 3;
   grid-row-end: 3;
+  grid-row-start: 2
 }
 
 .grid4 {
-  grid-column-start: 4;
   grid-column-end: end; 
-  grid-row-start: 2;
+  grid-column-start: 4;
   grid-row-end: 3;
+  grid-row-start: 2;
 }
 
 .grid5 {
-  grid-column-start: 1;
   grid-column-end: 2; 
-  grid-row-start: 3;
+  grid-column-start: 1;
   grid-row-end: end;
+  grid-row-start: 3;
 }
 
 .grid6 {
-  grid-column-start: 2;
   grid-column-end: 3;
-  grid-row-start: 3;
+  grid-column-start: 2;
   grid-row-end: end;
+  grid-row-start: 3;
 }
 
 .grid7 {
-  grid-column-start: 3;
   grid-column-end: 4; 
-  grid-row-start: 3;
+  grid-column-start: 3;
   grid-row-end: end;
+  grid-row-start: 3;
 }
 
 .grid8 {
-  grid-column-start: 4;
   grid-column-end: end; 
-  grid-row-start: 3;
+  grid-column-start: 4;
   grid-row-end: end;
+  grid-row-start: 3;
 }
 
 .card_top {
+  background-position-x: center;
   background-size: cover;
   height: 35%;
-  background-position-x: center;
 }
 
 .winter {
   background-image: url(images/winterFailLogo.png);
+  background-position-x: center;
   background-size: cover;
   height: 35%;
-  background-position-x: center;
 }
 
 .winter:hover {
@@ -269,9 +263,9 @@ h6 {
 
 .reptiles {
   background-image: url(images/reptilesLogo.png);
+  background-position-x: center;
   background-size: cover;
   height: 35%;
-  background-position-x: center;
 }
 
 .reptiles:hover {
@@ -328,44 +322,44 @@ h6 {
 
 @media screen and (max-width: 910px) {
   main {
-    grid-template-rows: 80px 400px 400px 400px; 
-    grid-template-columns: 32% 32% 32%;
     grid-row-gap: 10px;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 80px 400px 400px 400px; 
   }
 
   .grid4 {
-    grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 3;
+    grid-column-start: 1;
     grid-row-end: 4;
+    grid-row-start: 3;
   }
 
   .grid5 {
-    grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 3;
+    grid-column-start: 2;
     grid-row-end: 4;
+    grid-row-start: 3;
   }
 
   .grid6 {
-    grid-column-start: 3;
     grid-column-end: 4;
-    grid-row-start: 3;
+    grid-column-start: 3;
     grid-row-end: 4;
+    grid-row-start: 3;
   }
 
   .grid7 {
-    grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 4;
+    grid-column-start: 1;
     grid-row-end: end;
+    grid-row-start: 4;
   }
 
   .grid8 {
-    grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 4;
+    grid-column-start: 2;
     grid-row-end: end;
+    grid-row-start: 4;
   }
 }
 
@@ -384,44 +378,44 @@ h6 {
   }
 
   main {
+    grid-column-gap: 10px;
     grid-template-columns: repeat(2, 49%);
     grid-template-rows: 80px 400px 400px 400px;
-    grid-column-gap: 10px;
   }
 
   .grid3 {
-    grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 3;
+    grid-column-start: 1;
     grid-row-end: 4;
+    grid-row-start: 3;
   }
 
   .grid4 {
-    grid-column-start: 2;
     grid-column-end: end;
-    grid-row-start: 3;
+    grid-column-start: 2;
     grid-row-end: 4;
+    grid-row-start: 3;
   }
 
   .grid5 {
-    grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 4;
+    grid-column-start: 1;
     grid-row-end: 5;
+    grid-row-start: 4;
   }
 
   .grid6 {
-    grid-column-start: 2;
     grid-column-end: end;
-    grid-row-start: 4;
+    grid-column-start: 2;
     grid-row-end: 5;
+    grid-row-start: 4;
   }
 }
 
 @media screen and (max-width: 470px) {
   header {
-    padding: 0px 7px;
     height: 137px;
+    padding: 0px 7px;
   }
 
   .article__admin_log-in {
@@ -433,87 +427,86 @@ h6 {
   }
 
   aside {
-    display: flex;
-    margin: 0px auto;
-    flex-direction: column;
     align-items: center;
+    display: flex;
+    flex-direction: column;
     float: none;
+    margin: 0px auto;
   }
 
   ul {
     flex-direction: row;
-    padding-top: 2px;
     justify-content: space-around;
+    padding-top: 2px;
   }
 
   .latestVids {
-    text-align: center;
-    margin: 0px;
     justify-content: center;
-
+    margin: 0px;
+    text-align: center;
   }
 
   main {
+    grid-row-gap: 15px;
     grid-template-columns: repeat(1, 90%);
     grid-template-rows: 55px 400px 400px 400px 400px 400px 400px 400px 400px;
     padding: 6%;
-    grid-row-gap: 15px;
   }
 
   .grid1 {
-    grid-column-start: 1;
     grid-column-end: end;
-    grid-row-start: 2;
+    grid-column-start: 1;
     grid-row-end: 3;
+    grid-row-start: 2;
   }
 
   .grid2 {
-    grid-column-start: 1;
     grid-column-end: end;
-    grid-row-start: 3;
+    grid-column-start: 1;
     grid-row-end: 4;
+    grid-row-start: 3;
   }
 
   .grid3 {
-    grid-column-start: 1;
     grid-column-end: end;
-    grid-row-start: 4;
+    grid-column-start: 1;
     grid-row-end: 5;
+    grid-row-start: 4;
   }
 
   .grid4 {
-    grid-column-start: 1;
     grid-column-end: end;
-    grid-row-start: 5;
+    grid-column-start: 1;
     grid-row-end: 6;
+    grid-row-start: 5;
   }
 
   .grid5 {
-    grid-column-start: 1;
     grid-column-end: end;
-    grid-row-start: 6;
+    grid-column-start: 1;
     grid-row-end: 7;
+    grid-row-start: 6;
   }
 
   .grid6 {
-    grid-column-start: 1;
     grid-column-end: end;
-    grid-row-start: 7;
+    grid-column-start: 1;
     grid-row-end: 8;
+    grid-row-start: 7;
   }
 
   .grid7 {
-    grid-column-start: 1;
     grid-column-end: end;
-    grid-row-start: 8;
+    grid-column-start: 1;
     grid-row-end: 9;
+    grid-row-start: 8;
   }
 
   .grid8 {
-    grid-column-start: 1;
     grid-column-end: end;
-    grid-row-start: 9;
+    grid-column-start: 1;
     grid-row-end: 10;
+    grid-row-start: 9;
   }
 }
 
