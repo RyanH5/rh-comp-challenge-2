@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Static Comp 2</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,23 +10,38 @@
   <header>
     <aside>
       <article class="article__admin_log-in">
-        <img src="images/user-blue.svg" class="header__user-icon" alt="">
+        <img src="images/user-blue.svg" 
+             class="header__user-icon" 
+             alt="User icon">
         <h4 class="header__user-name">Admin Username</h4>
-        <img src="images/down-arrow-gray.svg" class="header__drop-down" alt="">
+        <img src="images/down-arrow-gray.svg" 
+             class="header__drop-down" 
+             alt="Drop down admin username logins">
       </article>
-      <h1>FAIL<span class="header__army_yellow">ARMY</span>
-        <img src="images/car-crash.svg" id="header__company-logo" alt="Car crashes into fire hydrant: Fail Army Logo"></h1>
+      <h1 aria-label="Fail-army company logo">
+          FAIL<span class="header__army_yellow">
+          ARMY</span>
+        <img src="images/car-crash.svg" 
+             id="header__company-logo" 
+             alt="Car crashes into fire hydrant: Fail Army Logo"></h1>
     </aside>
     <nav>
       <ul>
-        <li class="nav__item"><img src="images/submit-video-gray.svg" class="nav__icon portfolio" alt="">SUBMIT VIDEO</li>
-        <li class="nav__item"><img src="images/sign-up-gray.svg" class="nav__icon sign-up" alt="">SIGN UP</li>
-        <li class="nav__item"><img src="images/gear-gray.svg" class="nav__icon gear" alt="">GEAR</li>
+        <li class="nav__item" aria-label="Button to submit video">
+          <img src="images/submit-video-gray.svg" 
+               class="nav__icon portfolio" 
+               >SUBMIT VIDEO</li>
+        <li class="nav__item" aria-label="">
+          <img src="images/sign-up-gray.svg" 
+               class="nav__icon sign-up" 
+               >SIGN UP</li>
+        <li class="nav__item" aria-label="Button to browse Fail-Army company merchandise">
+          <img src="images/gear-gray.svg" 
+               class="nav__icon gear" 
+               >GEAR</li>
       </ul>
     </nav>
   </header>
-
-
   <main>
     <h2 class="latestVids">LATEST <span>VIDEOS</span></h2>
     <section class="grid grid1">
